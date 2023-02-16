@@ -1,5 +1,80 @@
+/* settaggi */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}  
+
+/* clearfix */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* settaggio grandezza immagine */
+.im{
+    height: 65px;
+    float: left;
+}
+
+nav{
+    margin-top: 2%;
+    margin-inline: 20%;
+}
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    color:magenta;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+span{
+    text-align: center;
+    margin-inline: 20%;
+    display: block;
+}
+
+
+
+.scheda1{
+    background-color: black;
+    box-shadow: 0 0 10px 1px;
+    float: left;
+    margin-right: 10%;
+}
+
+.scheda2{
+    background-color: black;
+    box-shadow: 0 0 10px 1px;
+    float: left;
+    margin-left: 10%;
+}
+
+.scheda3{
+    background-color: black;
+    box-shadow: 0 0 10px 1px;
+    float: right;
+}
+
+.elementi{
+    float: right;
+}
+
+h3{
+    color: white;
+    display: inline-block;
+}
+
+#white{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: cyan;
 }
