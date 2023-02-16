@@ -39,7 +39,7 @@ span{
     display: block;
 }
 
-
+/* inizio creazione schede */
 
 .scheda1{
     background-color: black;
@@ -61,20 +61,52 @@ span{
     float: right;
 }
 
+.scheda4{
+    background-color: black;
+    box-shadow: 0 0 10px 1px;
+    float: left;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.scheda5{
+    background-color: black;
+    box-shadow: 0 0 10px 1px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.scheda6{
+    background-color: black;
+    box-shadow: 0 0 10px 1px;
+    float: right;
+    margin-top: 5%;
+}
+
+/* conclusione creazione schede */
+
 .elementi{
     float: right;
+    width: 180px;
+    margin-left: 5px;
 }
 
 h3{
+    margin-top: 5px;
     color: white;
     display: inline-block;
+    font-family: 'PT Serif', serif;
 }
 
 #white{
     color: white;
+    font-family: 'PT Serif', serif;
+    font-size: 10px;
 }
 
 a{
     text-decoration: none;
     color: cyan;
 }
+
