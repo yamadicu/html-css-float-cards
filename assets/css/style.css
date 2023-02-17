@@ -20,10 +20,6 @@
     float: left;
 }
 
-nav{
-    margin-top: 2%;
-    margin-inline: 20%;
-}
 
 h1{
     font-family: 'Fredoka One', cursive;
@@ -37,6 +33,11 @@ span{
     text-align: center;
     margin-inline: 20%;
     display: block;
+}
+
+nav{
+    margin-top: 2%;
+    margin-inline: 20%;
 }
 
 /* inizio creazione schede */
@@ -99,7 +100,7 @@ h3{
     font-family: 'PT Serif', serif;
 }
 
-#white{
+.white{
     color: white;
     font-family: 'PT Serif', serif;
     font-size: 10px;
